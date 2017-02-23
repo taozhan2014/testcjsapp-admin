@@ -1,0 +1,29 @@
+{
+  "uri" : "local://MSV2687GmQBlVqy7NoaTP8/",
+  "name" : "App User Dashboard Template",
+  "category" : ".dashboard",
+  "parent" : "local://medrm3W2wlA10q5wcJ9XC7/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_dashboard_foo",
+    "expr" : {
+      "str" : "",
+      "type" : "STRING"
+    }
+  }, {
+    "name" : "dashboard",
+    "expr" : {
+      "concept" : "local://E5lYzErN95Adr4JOmxpzD3/",
+      "bindings" : {
+        "foo" : "_dashboard_foo"
+      },
+      "type" : "CONCEPT"
+    }
+  } ],
+  "isas" : [ {
+    "var" : "dashboard"
+  } ],
+  "encodedidxhash" : "",
+  "isLambda" : false
+}
